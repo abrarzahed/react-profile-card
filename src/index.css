@@ -41,8 +41,9 @@ COMMENT: app
 .container {
   max-width: 400px;
   background: var(--card-bg);
-  margin: 40px auto;
+  margin: auto;
   border-radius: 10px;
+  overflow: hidden;
 }
 
 .profile-picture {
@@ -52,7 +53,7 @@ COMMENT: app
   border-radius: 10px 10px 0 0;
 }
 .info-header {
-  padding: 20px 30px;
+  padding: 24px 30px;
   text-align: center;
   display: grid;
   gap: 10px;
@@ -121,4 +122,30 @@ COMMENT: app
 .about {
   display: grid;
   gap: 8px;
+}
+
+/* interests */
+.interests {
+  display: grid;
+  gap: 8px;
+}
+
+/* footer */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px !important;
+  padding: 20px;
+  background: var(--footer);
+}
+footer svg {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  padding: 4px;
+  background: var(--footer-icon-color);
+  stroke: var(--footer);
+  fill: var(--footer);
+  border-radius: 4px;
 }

@@ -1,8 +1,9 @@
+import Twitter from "./icons/Twitter";
 export default function Footer() {
   return (
     <footer>
       <a href="#">
-        <FontAwesomeIcon icon="fa-brands fa-square-twitter" />
+        <Twitter />
       </a>
     </footer>
   );
